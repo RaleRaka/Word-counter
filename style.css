@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter h1 {
+    font-size: 2.3rem;
+}
+
+.counter .counter-img-box {
+    width: 600px;
+    padding: 2rem 0;
+}
+
+.counter .counter-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.counter textarea {
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #f8f8f8;
+    resize: none;
+    letter-spacing: 0.1rem;
+}
+
+.counter .counter-buttons .btn {
+    margin-top: 2rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    transition: 0.15s ease-in-out;
+}
+
+.counter .counter-buttons .btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.counter .counter-buttons .counter-check {
+    margin-right: 1rem;
+    background-color: rgb(51, 31, 161);
+    color: #fff;
+}
+
+
+.counter .counter-buttons .counter-clear {
+    margin-right: 1rem;
+    background-color: rgb(135, 63, 184);
+    color: #fff;
+}
+
+.counter-message {
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
